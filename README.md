@@ -77,6 +77,7 @@ Please change the path in CMakeLists.txt of Yolov5
 include_directories(YOUR_PATH_TO_TensorRT/TensorRT-7.x.x.x/include)
 link_directories(YOUR_PATH_TO_TensorRT/TensorRT-7.x.x.x/lib)
 ```
++ Load the engine models from [model](https://drive.google.com/drive/folders/1w5m_tAVRaoQf0NY2m1ajX4lSkqxv8Put?usp=share_link) and set them in `model`.
 
 ## Python
 Required to calculate the alignment of the trajectory with the ground truth. **Required Numpy module**.
