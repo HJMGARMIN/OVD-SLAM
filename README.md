@@ -1,6 +1,5 @@
 # OVD-SLAM
-**OVD-SLAM** is an online visual SLAM for dynamic envionments. The library is the **basic version** of our work. Although some functions are not opensource, 
-it can run on your computers and achieve similar performance to complete OVD-SLAM.
+**OVD-SLAM** is an online visual SLAM for dynamic envionments. The library is the **basic version** of our work. Because some parts of the system are used in a cooperation projects with a company,  some functions are not open-source. However, it can also run on your computers and achieve similar performance to complete OVD-SLAM in the paper.
 ![ovd-slam](./doc/framework.png)
 + Forground and background feature points recognition by object detection and depth information.
 
