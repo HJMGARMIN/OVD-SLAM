@@ -51,7 +51,7 @@ sudo make install
 ```
 ## PCL
 Required by dense point cloud mapping. Download and install instructions can be found at:
-[PointCloudLibrary](https://github.com/PointCloudLibrary/pcl) and [Linux](https://pcl.readthedocs.io/projects/tutorials/en/latest/compiling_pcl_posix.html), respectively. Required at least 1.9. Tested with PCL1.12.
+[PointCloudLibrary](https://github.com/PointCloudLibrary/pcl) and [Linux](https://pcl.readthedocs.io/projects/tutorials/en/latest/compiling_pcl_posix.html), respectively. **Required at least 1.9. Tested with PCL1.12**.
 
 ## DBoW2, g2o, Sophus and Yolov5 (Included in Thirdparty folder)
 We use modified version of the DBoW2 library to perform place recognition and g2o library
