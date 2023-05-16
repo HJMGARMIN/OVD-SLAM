@@ -33,7 +33,7 @@ The PCL should be compiled by C++14.
 ## Pangolin
 It is same as [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3).
 
-##OpenCV
+## OpenCV
 We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload and install instructions can be found at: http://opencv.org. **Required at leat 3.0. Tested with OpenCV 3.2.0, 3.4.17 and 4.2.0**.
 
 ## Eigen3
