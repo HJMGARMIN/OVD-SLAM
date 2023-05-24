@@ -49,6 +49,10 @@ cmake ..
 make -j
 sudo make install
 ```
+or
+```
+sudo apt-get install libtbb-dev
+```
 ## PCL
 Required by dense point cloud mapping. Download and install instructions can be found at:
 [PointCloudLibrary](https://github.com/PointCloudLibrary/pcl) and [Linux](https://pcl.readthedocs.io/projects/tutorials/en/latest/compiling_pcl_posix.html), respectively. **Required at least 1.9. Tested with PCL1.12**.
