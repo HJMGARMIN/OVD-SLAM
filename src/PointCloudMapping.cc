@@ -111,10 +111,10 @@ void PointCloudMapping::generatePointCloud(KeyFrame *kf) //,Eigen::Isometry3d T
             for(int area = 0; area < kf->mvDynamicArea.size(); area++)
             {
 //                IsDynamic = false;
-                if(pt.x >(kf->mvDynamicArea[area].tl().x) &&
-                    pt.y > (kf->mvDynamicArea[area].tl().y) &&
-                    pt.x < (kf->mvDynamicArea[area].br().x) &&
-                    pt.y < (kf->mvDynamicArea[area].br().y)
+                if(pt.x >(kf->mvDynamicArea[area].tl().x-50) &&
+                    pt.y > (kf->mvDynamicArea[area].tl().y-50) &&
+                    pt.x < (kf->mvDynamicArea[area].br().x+50) &&
+                    pt.y < (kf->mvDynamicArea[area].br().y+50)
                     )
                     IsDynamic = true;
             }
