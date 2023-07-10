@@ -14,14 +14,15 @@ This repo is GPLv3 Licensed (inherit ORB-SLAM3). It is built on ORB-SLAM3.
 If you use OVD-SLAM in an academic work, please cite:
 ```
 @ARTICLE{10113832,
-author={He, Jiaming and Li, Mingrui and Wang, Yangyang and Wang, Hongyu},
-journal={IEEE Sensors Journal},
-title={OVD-SLAM: An Online Visual SLAM for Dynamic Environments},
-year={2023},
-volume={},
-number={},
-pages={1-1},
-doi={10.1109/JSEN.2023.3270534}}
+  author={He, Jiaming and Li, Mingrui and Wang, Yangyang and Wang, Hongyu},
+  journal={IEEE Sensors Journal}, 
+  title={OVD-SLAM: An Online Visual SLAM for Dynamic Environments}, 
+  year={2023},
+  volume={23},
+  number={12},
+  pages={13210-13219},
+  doi={10.1109/JSEN.2023.3270534}}
+
 ```
 # 2. Prerequisties
 We have tested the library in Ubuntu 18.04, but it should be easy to compile in other platforms.
