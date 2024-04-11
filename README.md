@@ -10,8 +10,7 @@
   ![pic3-4](./doc/pic4.png)
 
 # 1. License
-This repo is GPLv3 Licensed (inherit ORB-SLAM3). It is built on ORB-SLAM3.
-If you use OVD-SLAM in an academic work, please cite:
+It is built on ORB-SLAM3. If you use OVD-SLAM in an academic work, please cite:
 ```
 @ARTICLE{10113832,
   author={He, Jiaming and Li, Mingrui and Wang, Yangyang and Wang, Hongyu},
